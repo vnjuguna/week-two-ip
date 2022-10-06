@@ -16,14 +16,14 @@ if (genderInput === "M" || genderInput === "F") {
   if (genderInput === "M") {
 
     fullGender = "Male";
-    outPut = 'Your Akan name is '+ maleNames[birthDay]+ ' because you are a '+ fullGender +  ' born on a ' +daysOfWeek[birthDay] + "!" ;
+    outPut = 'Your Akan name is '+ maleNames[birthDay]+ ' because you are a '+ fullGender + ' born on a ' +daysOfWeek[birthDay] + "!" ;
     console.log (outPut);
   }
 
   else {
  
   fullGender = "Female";
-  outPut = 'Your Akan name is '+ femaleNames[birthDay] + ' because you are a '+ fullGender +  ' born on a '+ daysOfWeek[birthDay] + "!" ;
+  outPut = 'Your Akan name is '+ femaleNames[birthDay] + ' because you are a '+ fullGender + ' born on a '+ daysOfWeek[birthDay] + "!" ;
   console.log (outPut);
 
  }
