@@ -43,5 +43,18 @@
 }
 
 body{
-  background-color: rgb(220, 234, 245);
+  
+    background-color: rgb(220, 234, 245);
+}
+
+img
+{
+  float: left;
+}
+    .sidebar {
+      width: 30%;
+      float: right;
+      background-color: rgb(0, 162, 255);
+          
+  
 }
