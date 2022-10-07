@@ -33,7 +33,7 @@ if (genderInput === "M" || genderInput === "F") {
 
 else {
 
-console.log ("Invalid gender. Reply with M for Male and F for Female");
+alert ("Invalid gender. Reply with M for Male and F for Female");
 
 }
 
