@@ -58,3 +58,7 @@ img
           
   
 }
+
+.border-box {
+  border: 2px solid grey;
+}
