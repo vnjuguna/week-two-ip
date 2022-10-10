@@ -10,7 +10,7 @@ function akanNames() {
 
 
   /*Date Manipulation Variables*/
-  var birthDate = new Date(dateInput); //uses the variable date input from the useer to create a calendar date
+  var birthDate = new Date(dateInput); //uses the variable date input from the user to create a calendar date
   var actualday = birthDate.getDay();
   var birthMonth = birthDate.getMonth();//Picks the month for the date object
   var birthYear = birthDate.getFullYear();//picks the final year from the date object
@@ -24,7 +24,7 @@ function akanNames() {
   /*Captures the wrong date input*/
 
 
-  if (actualday >= 0 && actualday < 7 && birthMonth >= 0 && birthMonth < 12 && birthYear >= 1000) {
+  if (actualday >= 0 && actualday < 7 && birthMonth >= 0 && birthMonth < 12 && birthYear >= 1000 && dateInput.length === 10) {
 
     var gender = prompt("Enter your Gender either M or F").toUpperCase();
 
