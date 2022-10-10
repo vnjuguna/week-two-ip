@@ -22,8 +22,6 @@ function akanNames() {
 
 
   /*Captures the wrong date input*/
-
-
   if (actualday >= 0 && actualday < 7 && birthMonth >= 0 && birthMonth < 12 && birthYear >= 1000 && dateInput.length === 10) {
 
     var gender = prompt("Enter your Gender either M or F").toUpperCase();
@@ -31,10 +29,10 @@ function akanNames() {
     /*Captures the Wrong Gender Input*/
     if (gender === "M" || gender === "F") {
       if (gender === "M") {
-        document.getElementById("myOutput").innerHTML=("Your Akan name is " + genderMale);
+        document.getElementById("myOutput").innerHTML = ("Your Akan name is " + genderMale);
       }
       else {
-        document.getElementById("myOutput").innerHTML=("Your Akan name is " + genderFemale);
+        document.getElementById("myOutput").innerHTML = ("Your Akan name is " + genderFemale);
       }
     }
 
